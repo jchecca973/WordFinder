@@ -8,7 +8,7 @@ public class WordFinderApp
 	{
 		WordFinder test = new WordFinder();
 		Scanner scan = new Scanner(System.in);
-		System.out.print("Enter letters to query (space or no space separated, alphabetic characters only: ");
+		System.out.print("Enter letters to query (space or no space separated, alphabetic characters only): ");
 		String s = scan.nextLine();
 		s = s.replaceAll("\\s", "");
 		int i = s.length();
